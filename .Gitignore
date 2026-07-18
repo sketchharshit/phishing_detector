@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Environment Variables
+.env
+.env.*
+
+# Model Files
+models/*.joblib
+models/*.pkl
+models/scaler.joblib
+models/tfidf_vectorizer.joblib
+
+# Outputs
+outputs/
